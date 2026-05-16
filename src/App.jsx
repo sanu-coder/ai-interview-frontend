@@ -8,8 +8,8 @@ import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { setUserData } from './redux/userSlice';
 import InterviewPage from './pages/InterviewPage';
-import InterviewHistory from './pages/interviewHistory';
-import Pricing from './pages/pricing';
+import InterviewHistory from './pages/InterviewHistory';
+import Pricing from './pages/Pricing';
 import InterviewReport from './pages/InterviewReport';
 export const serverUrl = import.meta.env.VITE_BASE_URL ;
 function App() {
